@@ -22,7 +22,14 @@ const Hero = () => {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">
+          {" "}
+          {
+            <a href="https://issuu.com/amitasulin/docs/amit_asulin_-cv.docx">
+              My resume{" "}
+            </a>
+          }
+        </div>
       </div>
     </div>
   );
